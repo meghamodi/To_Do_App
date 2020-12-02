@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var data = [{item:'get milk'},{item:'walk around'},{item:'coding'}]
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
-mongoose.connect('mongodb+srv://test:test@todo.pe03y.mongodb.net/todo?retryWrites=true&w=majority')
+mongoose.connect('')
 
 var todoSchema = new mongoose.Schema({
   item: String
